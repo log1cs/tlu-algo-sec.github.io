@@ -1,0 +1,49 @@
+body {
+    background-color: #1a1a1a;
+}
+
+.avatar {
+    max-width: 200px;
+}
+
+.person-name {
+    font-family: Oswald, sans-serif !important;
+    font-size: 1.875rem;
+    margin: 0;
+}
+
+.person-position {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 20px 0 0;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #f1c50e;
+}
+
+.person-description {
+    font-size: 0.875rem;
+    font-style: italic;
+    margin: 20px 0 0;
+}
+
+.section-title {
+    font-size: 33px;
+    background-image: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#color-pad {
+    /* background-color: #f1c50e; */
+}
+
+spline-viewer {
+    position: fixed;
+    top: 30vh;
+}
+
+body {
+    min-height: 1vh;
+}
