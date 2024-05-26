@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Hello World"
+tags: [hello, world]
+authors: [1]
 ---
 
 # Hello World!
