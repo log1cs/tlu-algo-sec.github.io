@@ -9,11 +9,12 @@ authors: [3]
 
 - [Source](/assets/challenge%20files/BTCTF/Forensics/scrambled/scrambled.png)
 
+- Tools : ```hexedit,bless``` 
 - Đề bài cho 1 file có đuôi là .png nhưng mình mở lên thì không được. Mình dùng lệnh file để check thử thì kết quả trả về là data. Từ đề bài và kiểm tra ban đầu, dễ thấy đây là dạng bài ```corrupted file```. Dạng bài này sẽ yêu cầu sửa các file bị hỏng để nhận cờ. 
 - Bắt tay vào làm, mình dùng hexedit để kiểm tra header của file : 
-![]
+![](/assets/challenge%20files/BTCTF/Forensics/scrambled/hex-bit.png)
 - Và mình nhận ra là cái header này mình chưa thấy bao giờ luôn. Gì chưa biết thì ta tìm. Mang theo suy nghĩ đó thì mình tìm kiếm file signature và kết quả là không tìm thấy loại file đó. Đến đây mình định bỏ ngang thì tự nhiên 4 bit mình tìm kiếm (mình thử đảo lại ) ```4E 44``` lại nhảy vào IEND của file PNG . Để hiểu rõ hơn về PNG cũng như IEND, mình có để lại [bài viết này](https://en.wikipedia.org/wiki/PNG) và [bài viết này](https://stackoverflow.com/questions/30550346/understanding-image-its-hex-values). Mình xem lại header của file ban đầu và nhận ra nó hoàn toàn trùng khớp với IEND, chỉ là bị đảo lại. Mình chắc chắn hơn khi mình lướt đến cuối của file :
-![]()
+![](/assets/challenge%20files/BTCTF/Forensics/scrambled/tail-bit.png)
 - Để giải quyết chỉ cần đảo lại thứ tự bit là xong : 
 
 ```python
