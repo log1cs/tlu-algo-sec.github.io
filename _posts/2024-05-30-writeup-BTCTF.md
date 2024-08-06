@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Writeup BTCTF"
-tags: [writeup,forensics,python,crypto,web,]
+title:  "Writeup BTCTF 2024"
+tags: [writeup,forensics,python]
 authors: [4]
+image: https://ctftime.org/media/team/bt_code_club_pfp_2.png
 ---
 
 ## 1. Scrambled 
 
 - [Source](/assets/challenge%20files/BTCTF/Forensics/scrambled/scrambled.png)
 
-- Tools : ```hexedit,bless``` 
 - Đề bài cho 1 file có đuôi là .png nhưng mình mở lên thì không được. Mình dùng lệnh file để check thử thì kết quả trả về là data. Từ đề bài và kiểm tra ban đầu, dễ thấy đây là dạng bài ```corrupted file```. Dạng bài này sẽ yêu cầu sửa các file bị hỏng để nhận cờ. 
 - Bắt tay vào làm, mình dùng hexedit để kiểm tra header của file : 
 ![](/assets/challenge%20files/BTCTF/Forensics/scrambled/hex-bit.png)
@@ -43,8 +43,7 @@ reverse_hex_file(input_file, output_file)
 
 ![Smile](/assets/challenge%20files/BTCTF/Forensics/scrambled/out.png)
 
-Flag : 
-`btctf{How_DID_u_unsCraMBl3_tHI5_EGg}`
+FLAG: *btctf{How_DID_u_unsCraMBl3_tHI5_EGg}*
 
 ## 2. No end in sight
 
@@ -78,4 +77,4 @@ unzip_nested_zip(initial_zip_path, output_directory)
 
 - Hoặc 1 cách nhanh hơn mà mình biết sau khi giải kết thúc : ```strings layer1.zip | grep "btctf"``` :v
 
-Flag : `btctf{i_hope_you_didnt_do_this_by_hand}`
+FLAG: *btctf{i_hope_you_didnt_do_this_by_hand}*
