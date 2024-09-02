@@ -33,8 +33,7 @@ Hai kiểu chơi phổ biến nhất trong các cuộc thi CTF là **Jeopardy** 
 Kiểu chơi **Jeopardy** thường là một danh sách các thử thách có độ khó khác nhau và các câu trả lời được xác định rõ ràng. Người chơi được cung cấp một số loại tệp hoặc bằng chứng để phân tích, sau đó phải tìm “cờ” cho câu hỏi và nhập nó ở định dạng thích hợp để nhận được điểm. Nói tóm lại thì đây là kiểu chinh phục từng thử thách riêng lẻ.
 
 ![pic](/assets/TungPost/Forensic_in_CTF/jeopardy.png)
-
-                                            Kiểu chơi Jeopardy
+*Kiểu chơi Jeopardy*
 
 <figure>
     <img src="/assets/TungPost/Forensic_in_CTF/jeopardy.png" alt="pic">
