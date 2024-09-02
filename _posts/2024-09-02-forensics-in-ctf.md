@@ -34,7 +34,7 @@ Kiểu chơi **Jeopardy** thường là một danh sách các thử thách có �
 
 ![pic](/assets/TungPost/Forensic_in_CTF/jeopardy.png)
 
-                                      *Kiểu chơi Jeopardy*
+                                            *Kiểu chơi Jeopardy*
 
 Kiểu chơi **Attack and Defense** phổ biến hơn khi muốn mô phỏng tình huống thực chiến. Các đội vừa đóng vai kẻ tấn công, vừa là người phòng thủ. Để ghi điểm, người chơi phải tấn công máy chủ hoặc dịch vụ của đối thủ đồng thời bảo vệ hệ thống của mình khỏi các cuộc tấn công. Điểm được tính dựa trên thời gian chiếm giữ máy chủ, dịch vụ, hoặc khi lấy được các tệp cụ thể từ máy chủ của đối phương.
 
