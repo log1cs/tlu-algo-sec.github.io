@@ -14,7 +14,7 @@ Chào các bạn! Cuối cùng cũng đến đợt nghỉ lễ rồi. Nhân dị
 
 ![pic](/assets/TungPost/Forensic_in_CTF/GetReady.png)
 
-# 0x2 CTF là gì?
+## 0x2 CTF là gì?
 
 ---
 
