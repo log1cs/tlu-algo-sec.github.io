@@ -196,7 +196,7 @@ Mình là một người dùng hệ điều hành Windows nên mình không th�
     - [Aperi'Solve](https://www.aperisolve.com/)
     - [zsteg](https://github.com/zed-0xff/zsteg), [steghide](https://steghide.sourceforge.net/), [stegsolve](https://github.com/Giotino/stegsolve), ..
 
-## **Nên làm gì khi cuộc thi đang diễn ra**
+### **Nên làm gì khi cuộc thi đang diễn ra**
 
 Đây là những điều bạn cần lưu ý khi đang chơi một giải CTF.
 
@@ -208,7 +208,7 @@ Một điều có vẻ ngớ ngẩn nhưng có thể hữu ích đó là chỉ c
 
 Một vài cuộc thi CTF có hệ thống gợi ý. Nếu chúng không ảnh hưởng gì đến số điểm của bạn thì hãy tận dụng chúng! Việc phân thắng bại dựa theo người nào dùng ít gợi ý hơn rất ít khi xảy ra. Nếu việc nhận gợi ý tốn điểm, bạn sẽ cần cân nhắc ưu và nhược điểm của việc không hoàn thành một thử thách có điểm cao hay là mất điểm để mua gợi ý đó. Nếu bạn mua gợi ý nhưng vẫn không làm được thử thách thì đó có thể là bước lùi lớn trong vị trí của bạn trên bảng xếp hạng.
 
-## **Chiến thuật**
+### **Chiến thuật**
 
 Có rất nhiều chiến thuật mà bạn có thể sử dụng để giải quyết các thử thách. Thông thường, các thử thách sẽ được chia thành các lĩnh vực khác nhau dựa theo loại bằng chứng được cung cấp cho người chơi ví dụ như Mobile/ Computer/ Network/ Hunt. Một số người thích hoàn thành tất cả các câu hỏi trong một lĩnh vực cụ thể trước khi chuyển qua lĩnh vực khác. Ví dụ, bạn thực sự giỏi trong việc điều tra Mobile, bắt đầu với những câu hỏi thuộc lĩnh vực đó có thể là chiến lược tốt nếu bạn có ít kinh nghiệm hơn trong các lĩnh vực khác.
 
