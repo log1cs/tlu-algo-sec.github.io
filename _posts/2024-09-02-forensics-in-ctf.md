@@ -226,7 +226,7 @@ Có một số người chơi khi biết rằng họ đã có flag, họ sẽ tr
 
 Hãy tự hỏi bản thân rằng “Mình sẽ nhận được gì từ việc chơi CTF?”. Đáp án của câu hỏi này còn tuỳ thuộc vào cách bạn cảm nhận khi chơi CTF. Đây là một số điều mình rút ra được từ những trải nghiệm của mình.
 
-### Hãy tập viết mọi thứ
+### Hãy tập viết lại mọi thứ
 
 Một trong những điều mình thích nhất sau mỗi giải CTF đó là viết blog writeups về cuộc thi đó. Nếu có thử thách mà mình không hoàn thành được, mình sẽ đọc write-ups, làm lại, sau đó viết lại write-ups theo hướng hiểu của mình. Việc này không chỉ giúp mình lưu lại những kết quả của mình để có thể sử dụng trong tương lai mà còn giúp mình cải thiện kĩ năng viết các blogs mang tính kĩ thuật. 
 
