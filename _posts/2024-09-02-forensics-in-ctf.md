@@ -6,7 +6,7 @@ authors: [5]
 image: /assets/TungPost/Forensic_in_CTF/cover.webp
 ---
 
-# 0x1 Lời mở đầu
+## 0x1 Lời mở đầu
 
 ---
 
@@ -44,15 +44,15 @@ Kiểu chơi **Attack and Defense** phổ biến hơn khi muốn mô phỏng tì
 
 Trong blog này thì mình sẽ tập trung nói về kiểu chơi Jeopardy do đó là kiểu chơi thông dụng hơn.
 
-# 0x3 Tại sao lại nên chơi CTF?
+## 0x3 Tại sao lại nên chơi CTF?
 
 ---
 
-## Tinh thần thể thao
+### Tinh thần thể thao
 
 Chơi CTF giống như tham gia các môn thể thao cạnh tranh như bóng rổ hay bóng đá. Việc tranh đua trên bảng xếp hạng mang lại sự phấn khích mà ít phương pháp học nào khác có thể sánh được. Cảm giác trở thành người đầu tiên giải được một thử thách sẽ tiếp thêm động lực để bạn vượt qua những thách thức tiếp theo.
 
-## “Lợi ích”
+### “Lợi ích”
 
 Mình đặt từ "lợi ích" trong dấu nháy kép vì nhiều người hiểu nó chỉ là phần thưởng tiền mặt khi đạt giải cao trong cuộc thi. Đó đúng là một sự đền đáp xứng đáng, nhưng nó không miêu tả hết ý nghĩa của từ "lợi ích" mà mình muốn nói. Lợi ích thật sự chính là kiến thức và trải nghiệm bạn nhận được từ việc chơi CTF. Ví dụ, mình đã từng tham gia một cuộc thi mà mình chưa biết cách điều tra memory dump. Ít nhất sau giải đấu đó, mình đã học được những điều cơ bản về cách phân tích và những kỹ thuật mới để áp dụng trong các tình huống thực tế sau này.
 
@@ -60,7 +60,7 @@ Mình đặt từ "lợi ích" trong dấu nháy kép vì nhiều người hiể
 
 Những kiến thức bạn thu được từ “thực hành” chắc chắn sẽ giúp ích cho bạn trong tương lai, đó chỉ là vấn đề thời gian. Nghiêm túc mà nói, bạn không biết những gì bạn không biết. Không quan trọng bạn đạt được 10 điểm hay 1000 điểm, miễn là bạn học được điều gì đó mới và cảm thấy vui vẻ khi làm điều đó, đó mới là điều quan trọng
 
-# 0x4 Giới thiệu mảng Forensics trong CTF
+## 0x4 Giới thiệu mảng Forensics trong CTF
 
 ---
 
@@ -80,7 +80,7 @@ Bạn có thể thấy từ danh sách trên rằng bạn sẽ phải phân tíc
 
                                       Thử thách yêu cầu giải mã
 
-# 0x5 Một số nơi để luyện tập
+## 0x5 Một số nơi để luyện tập
 
 ---
 
@@ -126,25 +126,25 @@ Vậy đâu là nền tảng chơi CTF tốt để bạn có thể mài giũa k�
     - [Dreamhack](https://dreamhack.io/)
     - [BUU CTF](https://buuoj.cn/)
 
-# 0x6 Lời khuyên cho việc chơi CTF
+## 0x6 Lời khuyên cho việc chơi CTF
 
 ---
 
 Mình đã được hỏi rất nhiều lần rằng “Làm sao để chơi CTF tốt?”. Đó thực sự là một câu hỏi hóc búa và mình tự thấy bản thân mình cũng chưa đủ giỏi để có thể trả lời được câu hỏi đó. Nhưng mình nghĩ mình có thể chia sẻ một chút về quan điểm của mình về việc “Làm sao để chơi CTF tốt?”.
 
-## Chuẩn bị kĩ càng
+### Chuẩn bị kĩ càng
 
 Giai đoạn đầu tiên và cũng là giai đoạn quan trọng nhất đó là giai đoạn chuẩn bị. Cũng như mọi việc trong cuộc sống, việc chuẩn bị trước cho “trận chiến” luôn luôn hữu ích. Biết được điều gì sắp xảy ra sẽ giúp ích cho quá trình chơi của bạn. Nếu bạn biết người tạo ra thử thách CTF đó là ai, hãy thăm dò họ. Tìm kiếm thông tin của họ trên các trang mạng xã hội. Đôi khi, họ sẽ đưa ra các gợi ý theo một hình thức nào đó, có thể là một webinar mà họ chia sẻ hoặc một blog, bài nghiên cứu về một lỗ hổng nào đó mà họ mới công khai. Tuy nhiên, đừng quá lạm dụng nó, đó có thể là một cái bẫy tác giả bày ra. Bạn cũng có thể xem lại các thử thách CTF mà họ đã từng tạo ra trước đó, để ý xem xu hướng ra đề của họ và họ thường hay giấu cờ ở vị trí nào. Đây là lý do chúng ta nên tự viết write-ups cho các thử thách mà mình từng chơi.
 
 ![pic](/assets/TungPost/Forensic_in_CTF/i-dont-know-who-you-are-but-i-will-use-osint-and-will-find-you.jpg)
 
-## **Hãy tìm cho mình những người đồng đội tốt**
+### **Hãy tìm cho mình những người đồng đội tốt**
 
 Luật lệ của mỗi giải CTF là khác nhau, nhưng hầu hết các giải sẽ cho phép các bạn chơi theo đội. Kiến thức từ nhiều người thông thạo các mảng khác nhau sẽ san sẻ khối lượng công việc mà bạn phải đảm nhiệm. Bạn có thể giải quyết các thử thách ở mảng forensic và crypto, reverse nhưng bạn không thể tự mình làm hết mọi việc. Hãy kiếm cho mình những người đồng đội ăn ý. Đảm bảo phối hợp chặt chẽ với đồng đội của bạn để không lãng phí thời gian để trả lời cùng một câu hỏi. Những người đồng đội cũng sẽ giúp bạn có động lực để chơi CTF hơn.
 
 ![pic](/assets/TungPost/Forensic_in_CTF/teamwork.jpg)
 
-## **Hãy chuẩn bị trước đầy đủ “vũ khí”**
+### **Hãy chuẩn bị trước đầy đủ “vũ khí”**
 
 ![pic](/assets/TungPost/Forensic_in_CTF/weapon.jpg)
 
@@ -220,13 +220,13 @@ Có một số người chơi khi biết rằng họ đã có flag, họ sẽ tr
 
 ![pic](/assets/TungPost/Forensic_in_CTF/you_miss.webp)
 
-# 0x7 Bài học rút ra
+## 0x7 Bài học rút ra
 
 ---
 
 Hãy tự hỏi bản thân rằng “Mình sẽ nhận được gì từ việc chơi CTF?”. Đáp án của câu hỏi này còn tuỳ thuộc vào cách bạn cảm nhận khi chơi CTF. Đây là một số điều mình rút ra được từ những trải nghiệm của mình.
 
-## Hãy tập viết mọi thứ
+### Hãy tập viết mọi thứ
 
 Một trong những điều mình thích nhất sau mỗi giải CTF đó là viết blog writeups về cuộc thi đó. Nếu có thử thách mà mình không hoàn thành được, mình sẽ đọc write-ups, làm lại, sau đó viết lại write-ups theo hướng hiểu của mình. Việc này không chỉ giúp mình lưu lại những kết quả của mình để có thể sử dụng trong tương lai mà còn giúp mình cải thiện kĩ năng viết các blogs mang tính kĩ thuật. 
 
@@ -234,7 +234,7 @@ Tài liệu đóng vai trò rất quan trọng trong quá trình điều tra, v�
 
 ![pic](/assets/TungPost/Forensic_in_CTF/documents.png)
 
-## **Không ngừng thử thách bản thân và xây dựng sự tự tin**
+### **Không ngừng thử thách bản thân và xây dựng sự tự tin**
 
 Mình sẽ nhấn mạnh lại lần nữa, chơi CTF sẽ giúp bạn học hỏi. Đối với những người không thể làm việc với một số tệp bằng chứng khác nhau như tệp Linux hoặc pcap, CTF sẽ cung cấp cho bạn tình huống mô phỏng để bạn có thể học cách phân tích chúng. Trước khi chơi CTF, mình hiếm khi chạm trán với các tệp PCAP chứ chưa nói đến cách sử dụng Wireshark để lấy các tệp hoặc gói tin cụ thể ra. Tìm hiểu về hoạt động xuất của Google Takeout đã mang lại cho mình cái nhìn mới về những bằng chứng tiềm năng nào có thể được tìm thấy trên cloud và những gì có thể không được tìm thấy trực tiếp trên thiết bị di động. Đây chỉ là một vài ví dụ về việc thoát ra khỏi vùng an toàn của bạn và thử thách bản thân để tìm hiểu về các công cụ và kỹ thuật mới.
 
@@ -242,7 +242,7 @@ Và một điều quan trọng khác đó là hãy luôn giữ niềm tin mãnh 
 
 ![pic](/assets/TungPost/Forensic_in_CTF/iknowkungfu.png)
 
-## **Hãy chơi thật vui vẻ!**
+### **Hãy chơi thật vui vẻ!**
 
 Điều quan trọng nhất khi tham gia các cuộc thi CTF là phải vui vẻ! Hãy coi nó như một bài tập rèn luyện để kích thích trí óc và giúp bạn thoát khỏi những công việc nhàm chán lặp đi lặp lại hàng ngày của bạn. Đừng căng thẳng, hãy tiếp tục học hỏi. Nếu bạn tham gia thi đấu trực tiếp, hãy tận hưởng tinh thần đồng đội với những thí sinh khác và mở rộng mối quan hệ của mình. Bạn sẽ không bao giờ biết được mình sẽ gặp ai và sẽ tạo dựng tình bạn với ai trong ngành này khi tham gia chơi CTF. 
 
