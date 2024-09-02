@@ -23,8 +23,7 @@ Chào các bạn! Cuối cùng cũng đến đợt nghỉ lễ rồi. Nhân dị
 CTF (viết tắt của Capture The Flag) là một dạng thi đấu trong lĩnh vực an ninh mạng, nơi mọi người phải giải quyết các thử thách. Những thử thách này có thể thuộc nhiều lĩnh vực khác nhau như web, reverse, forensics,…. Mục tiêu là tìm "cờ" (flag) – thường là một chuỗi ký tự đặc biệt – được ẩn trong các thử thách.
 
 ![pic](/assets/TungPost/Forensic_in_CTF/flag_result.png)
-
-                                      Flag được giấu trong 3D Object
+*Flag được giấu trong 3D Object*
 
 ### Các kiểu chơi
 
@@ -35,16 +34,11 @@ Kiểu chơi **Jeopardy** thường là một danh sách các thử thách có �
 ![pic](/assets/TungPost/Forensic_in_CTF/jeopardy.png)
 *Kiểu chơi Jeopardy*
 
-<figure>
-    <img src="/assets/TungPost/Forensic_in_CTF/jeopardy.png" alt="pic">
-    <figcaption>Kiểu chơi Jeopardy</figcaption>
-</figure>
 
 Kiểu chơi **Attack and Defense** phổ biến hơn khi muốn mô phỏng tình huống thực chiến. Các đội vừa đóng vai kẻ tấn công, vừa là người phòng thủ. Để ghi điểm, người chơi phải tấn công máy chủ hoặc dịch vụ của đối thủ đồng thời bảo vệ hệ thống của mình khỏi các cuộc tấn công. Điểm được tính dựa trên thời gian chiếm giữ máy chủ, dịch vụ, hoặc khi lấy được các tệp cụ thể từ máy chủ của đối phương.
 
 ![pic](/assets/TungPost/Forensic_in_CTF/attackDefense.png)
-
-                                      Kiểu chơi Attack and Defense
+*Kiểu chơi Attack and Defense*
 
 Trong blog này thì mình sẽ tập trung nói về kiểu chơi Jeopardy do đó là kiểu chơi thông dụng hơn.
 
@@ -81,8 +75,7 @@ Các thử thách CTF trong mảng forensics cũng giống như trong đời th�
 Bạn có thể thấy từ danh sách trên rằng bạn sẽ phải phân tích rất nhiều loại bằng chứng. Trong các cuộc thi khác mà mình đã tham gia, mình cũng gặp các tài nguyên cloud do việc sử dụng cloud đang dần trở nên phổ biến hơn. Bên cạnh đó, mình cũng đã thấy một số thử thách dựa trên mật mã nhiều hơn, trong đó bạn sẽ làm việc với các mật mã và hàm băm khác nhau để xác định câu trả lời. Bởi vậy nên kĩ năng dịch ngược (reverse) và hiểu biết về các kiểu mã hoá (crypto) là không thể thiếu.
 
 ![pic](/assets/TungPost/Forensic_in_CTF/crypto.png)
-
-                                      Thử thách yêu cầu giải mã
+*Thử thách yêu cầu giải mã*
 
 ## 0x5 Một số nơi để luyện tập
 
@@ -93,32 +86,28 @@ Vậy đâu là nền tảng chơi CTF tốt để bạn có thể mài giũa k�
 - [TAS CTF](https://ctf.tlualgosec.com/challenges)
 
 ![pic](/assets/TungPost/Forensic_in_CTF/TASCTFpage.png)
-
-                                      Trang chủ TAS CTF
+*Trang chủ TAS CTF*
 
 Đây là trang web CTF của câu lạc bộ **TAS - TLU Algorithm and Security**. Trang web chứa rất nhiều thử thách thú vị do các thành viên trong Ban chuyên môn của câu lạc bộ sưu tập và tạo ra. Khi chơi các thử thách trên trang web này, các bạn có thể liên hệ trực tiếp với các thành viên câu lạc bộ để xin gợi ý hoặc trợ giúp. 
 
 - [PicoCTF](https://play.picoctf.org/practice)
     
     ![pic](/assets/TungPost/Forensic_in_CTF/picoCTF_page.png)
-    
-                                      Trang chủ PicoCTF
+*Trang chủ PicoCTF*
     
     Đây là một trang web CTF có các thử thách trải dài từ mức độ rất dễ → khó phù hợp với người mới bắt đầu
     
 - [TryHackMe](https://tryhackme.com/)
     
     ![pic](/assets/TungPost/Forensic_in_CTF/THM_page.png)
-    
-                                      Trang chủ TryHackMe
+*Trang chủ TryHackMe*
     
     Kiểu chơi thử thách trên website này sẽ khác một chút. Thử thách sẽ được chia thành các câu hỏi nhỏ. Việc của bạn là trả lời từng câu hỏi nhỏ đấy và các câu hỏi sẽ dẫn bạn từng bước tiến đến mục tiêu lớn hơn. Các bạn có thể tham khảo chơi các thử thách trong [link này](https://github.com/migueltc13/TryHackMe) trên TryHackMe
     
 - [Cyber Defenders](https://cyberdefenders.org/blueteam-ctf-challenges/)
     
     ![pic](/assets/TungPost/Forensic_in_CTF/CyberDefenders.png)
-    
-                                      Trang chủ Cyber Defenders
+*Trang chủ Cyber Defenders*
     
     Các thử thách trên trang này sẽ mang độ khó và thực tế cao hơn rất nhiều so với những trang CTF phía trên. Mình liệt kê nó ở đây để nếu có bạn nào thật sự muốn thử sức thì có thể trải nghiệm.
     
