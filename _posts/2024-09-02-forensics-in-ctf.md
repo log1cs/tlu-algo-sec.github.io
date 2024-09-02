@@ -34,13 +34,13 @@ Kiểu chơi **Jeopardy** thường là một danh sách các thử thách có �
 
 ![pic](/assets/TungPost/Forensic_in_CTF/jeopardy.png)
 
-                                                                                         Kiểu chơi Jeopardy
+                                      Kiểu chơi Jeopardy
 
 Kiểu chơi **Attack and Defense** phổ biến hơn khi muốn mô phỏng tình huống thực chiến. Các đội vừa đóng vai kẻ tấn công, vừa là người phòng thủ. Để ghi điểm, người chơi phải tấn công máy chủ hoặc dịch vụ của đối thủ đồng thời bảo vệ hệ thống của mình khỏi các cuộc tấn công. Điểm được tính dựa trên thời gian chiếm giữ máy chủ, dịch vụ, hoặc khi lấy được các tệp cụ thể từ máy chủ của đối phương.
 
 ![pic](/assets/TungPost/Forensic_in_CTF/attackDefense.png)
 
-                                                                  Kiểu chơi Attack and Defense
+                                      Kiểu chơi Attack and Defense
 
 Trong blog này thì mình sẽ tập trung nói về kiểu chơi Jeopardy do đó là kiểu chơi thông dụng hơn.
 
@@ -78,7 +78,7 @@ Bạn có thể thấy từ danh sách trên rằng bạn sẽ phải phân tíc
 
 ![pic](/assets/TungPost/Forensic_in_CTF/crypto.png)
 
-                                                                 Thử thách yêu cầu giải mã
+                                      Thử thách yêu cầu giải mã
 
 # 0x5 Một số nơi để luyện tập
 
@@ -90,7 +90,7 @@ Vậy đâu là nền tảng chơi CTF tốt để bạn có thể mài giũa k�
 
 ![pic](/assets/TungPost/Forensic_in_CTF/TASCTFpage.png)
 
-                                                                              Trang chủ TAS CTF
+                                      Trang chủ TAS CTF
 
 Đây là trang web CTF của câu lạc bộ **TAS - TLU Algorithm and Security**. Trang web chứa rất nhiều thử thách thú vị do các thành viên trong Ban chuyên môn của câu lạc bộ sưu tập và tạo ra. Khi chơi các thử thách trên trang web này, các bạn có thể liên hệ trực tiếp với các thành viên câu lạc bộ để xin gợi ý hoặc trợ giúp. 
 
@@ -98,7 +98,7 @@ Vậy đâu là nền tảng chơi CTF tốt để bạn có thể mài giũa k�
     
     ![pic](/assets/TungPost/Forensic_in_CTF/picoCTF_page.png)
     
-                                                                                       Trang chủ PicoCTF
+                                      Trang chủ PicoCTF
     
     Đây là một trang web CTF có các thử thách trải dài từ mức độ rất dễ → khó phù hợp với người mới bắt đầu
     
@@ -106,7 +106,7 @@ Vậy đâu là nền tảng chơi CTF tốt để bạn có thể mài giũa k�
     
     ![pic](/assets/TungPost/Forensic_in_CTF/THM_page.png)
     
-                                                                        Trang chủ TryHackMe
+                                      Trang chủ TryHackMe
     
     Kiểu chơi thử thách trên website này sẽ khác một chút. Thử thách sẽ được chia thành các câu hỏi nhỏ. Việc của bạn là trả lời từng câu hỏi nhỏ đấy và các câu hỏi sẽ dẫn bạn từng bước tiến đến mục tiêu lớn hơn. Các bạn có thể tham khảo chơi các thử thách trong [link này](https://github.com/migueltc13/TryHackMe) trên TryHackMe
     
@@ -114,7 +114,7 @@ Vậy đâu là nền tảng chơi CTF tốt để bạn có thể mài giũa k�
     
     ![pic](/assets/TungPost/Forensic_in_CTF/CyberDefenders.png)
     
-                                                                                 Trang chủ Cyber Defenders
+                                      Trang chủ Cyber Defenders
     
     Các thử thách trên trang này sẽ mang độ khó và thực tế cao hơn rất nhiều so với những trang CTF phía trên. Mình liệt kê nó ở đây để nếu có bạn nào thật sự muốn thử sức thì có thể trải nghiệm.
     
