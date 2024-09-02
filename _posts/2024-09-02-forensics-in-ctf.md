@@ -22,7 +22,7 @@ Chào các bạn! Cuối cùng cũng đến đợt nghỉ lễ rồi. Nhân dị
 
 CTF (viết tắt của Capture The Flag) là một dạng thi đấu trong lĩnh vực an ninh mạng, nơi mọi người phải giải quyết các thử thách. Những thử thách này có thể thuộc nhiều lĩnh vực khác nhau như web, reverse, forensics,…. Mục tiêu là tìm "cờ" (flag) – thường là một chuỗi ký tự đặc biệt – được ẩn trong các thử thách.
 
-![pic](assets/TungPost/Forensic_in_CTF/flag_result.png)
+![pic](/assets/TungPost/Forensic_in_CTF/flag_result.png)
 
                                       Flag được giấu trong 3D Object
 
