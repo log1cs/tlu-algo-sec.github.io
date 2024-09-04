@@ -193,7 +193,7 @@ Mình là một người dùng hệ điều hành Windows nên mình không th�
 
 Đây là những điều bạn cần lưu ý khi đang chơi một giải CTF.
 
-Đọc tiêu đề của câu hỏi một cách thật cẩn thận. Đôi lúc trong câu hỏi sẽ có gợi ý cho bạn. Ví dụ, “**Fetch** the run time of XXX application.”. Câu hỏi này gợi ý bạn nên điều tra các tệp Prefetch. Các câu hỏi thường sẽ cho bạn biết định dạng của câu trả lời. Bạn nên để ý vì nếu không có thể bạn sang sử dụng sai timestamp do chênh lệch múi giờ.
+Đọc tiêu đề của câu hỏi một cách thật cẩn thận. Đôi lúc trong câu hỏi sẽ có gợi ý cho bạn. Ví dụ, “**Fetch** the run time of XXX application.”. Câu hỏi này gợi ý bạn nên điều tra các tệp Prefetch. Các câu hỏi thường sẽ cho bạn biết định dạng của câu trả lời. Bạn nên để ý vì nếu không, có thể bạn sẽ sử dụng sai timestamp do chênh lệch múi giờ.
 
 Một điều có vẻ ngớ ngẩn nhưng có thể hữu ích đó là chỉ cần đặt câu hỏi. Nếu bạn bối rối ở một câu hỏi, đừng ngần ngại nói chuyện với ban ra đề (nếu có thể), họ có thể dẫn bạn đi theo hướng mà bạn không nghĩ tới, trước khi bạn đi quá sâu vào một con đường không có đích đến.
 
