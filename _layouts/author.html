@@ -7,7 +7,7 @@ layout: default
   <ul>
     {% assign author_id = page.author %}
     {% for post in site.posts %}
-      {% if post.author contains author_id %}
+      {% if post.authors contains author_id %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
