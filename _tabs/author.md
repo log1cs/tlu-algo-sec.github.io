@@ -15,4 +15,3 @@ order: 5
     </div>
   {% endfor %}
 </div>
-2. Điều chỉnh mã H
