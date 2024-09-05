@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container">
-  <h1>Posts by {{ page.title }}</h1>
+  <h1>Posts by {{ page.author }}</h1>
   <ul>
     {% assign author_id = page.author %}
     {% for post in site.posts %}
