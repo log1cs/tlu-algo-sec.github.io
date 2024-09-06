@@ -9,7 +9,7 @@ order: 5
   
   {% for author in authors %}
     <div>
-      <a class="tag" href="{{ '/authors/' | append: author[0] | relative_url }}">
+      <a class="tag" href="{{ author[1].url | relative_url }}">
         {{ author[1].name }}
       </a>
     </div>
