@@ -475,6 +475,8 @@ Bạn có thấy thư mục [qcom-caf](https://github.com/PixelExperience-Device
 
 Ví dụ đơn giản thôi: BSP tag của chiếc Nokia 7.2 ở Android 11 là `LA.UM.9.2.r1-03500-SDMxx0.0`. Nếu muốn display stack hoạt động, thì HAL của bạn phải có tag `LA.UM.9.2.xx-0xxxx-SDMxx0.0` - tag này sẽ đảm bảo rằng display stack sẽ hoạt động với tag hiện tại và các driver Adreno cũ hơn, chẳng hạn như HAL có tag `LA.UM.9.2.xx-0xxxx-SDMxx0.0` thì sẽ ăn nhập được với Adreno đến từ BSP tag `LA.UM.8.2.xx-0xxxx-SDMxx0.0`.
 
+Trừ khi cũ quá thì không được nhé :D
+
 Nhưng liệu nó có thực sự cần thiết để phải nhét cả cái custom display HAL vào đấy không? Câu trả lời là không, vì Q Adreno và HAL đã quá đủ rồi.
 
 Mở file [proprietary-files.txt](https://github.com/PixelExperience-Devices/device_nokia_NB1/blob/thirteen/proprietary-files.txt) lên, bạn sẽ thấy ngay dòng số 2 có state rằng blobs được lấy từ chiếc Nokia 7.2 (`ddv_sprout`) - đây là một trong những con chạy `msm-4.4` hiếm hoi vẫn nhận được official update lên Android 11, chỉ đằng sau LG G7 One (`phoenix_sprout` - msm8998) và Nokia 6.2 (`sld_sprout` - SDM630):
@@ -520,8 +522,6 @@ Như đã nói ở trên, SDM660 và MSM8998 là hai con SoC có sự tương đ
 * [LG G7 One - phoenix_sprout](https://dumps.tadiphone.dev/dumps/lge/phoenix_sprout)
 * [Nokia 7.2 - ddv_sprout](https://dumps.tadiphone.dev/dumps/nokia/ddv_sprout)
 * [Nokia 6.2 - sld_sprout](https://dumps.tadiphone.dev/dumps/nokia/sld_sprout)
-
-Trừ khi cũ quá thì không được nhé :D
 
 Mình sẽ giải thích thêm về cách mà các HAL của Qualcomm hoạt động như thế nào ở trong tương lai gần sau, ở post này thì cứ ngắn gọn nhất có thể đã.
 
