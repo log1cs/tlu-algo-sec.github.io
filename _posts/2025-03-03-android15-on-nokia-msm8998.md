@@ -32,7 +32,7 @@ Thực ra thì cái camera system chả liên quan gì đến hiệu năng của
 
 Nói đến đây thì chắc bạn cũng hiểu những chiếc Nokia có software tệ thế nào, mặc dù thiết bị của họ mang tiếng chạy Android One :D - không phải tự dưng người ta muốn custom ROM để giải quyết những vấn đề đó cho những chiếc điện thoại Nokia.
 
-Chiếc Nokia 8 này cũng không kém cạnh (chính mình là người đã sử dụng nó trong vòng 5 năm, nhưng mà mình trộm  máy vẫn sống đến bây giờ :D), bắt đầu với những bản OTA mà khi bạn cài xong nó sẽ treo mãi ở boot splash (at this point, call it **bricked**), hoặc random reboot, sóng yếu, GPS có vấn đề, hoặc đang dùng tự dưng màn hình của bạn làm quả ối dồi ôi:
+Chiếc Nokia 8 này cũng không kém cạnh (chính mình là người đã sử dụng nó trong vòng 5 năm, nhưng mà mình trộm vía nên máy vẫn sống đến bây giờ :D), bắt đầu với những bản OTA mà khi bạn cài xong nó sẽ treo mãi ở boot splash (at this point, call it **bricked**), hoặc random reboot, sóng yếu, GPS có vấn đề, hoặc đang dùng tự dưng màn hình của bạn làm quả ối dồi ôi:
 
 ![alt text](../assets/Nokia/NB1_halfstatic.jpg)
 
